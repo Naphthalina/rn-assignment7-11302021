@@ -1,6 +1,6 @@
 NAPHTHALINA
 
-Design Choices
+##Design Choices
 - Component-Based Structure: The application is split into a set of self-contained and reusable components, facilitating easy maintenance and scalability.
   All screens and key features are implemented as different components.
   
@@ -12,13 +12,13 @@ Design Choices
 
 - React Native Elements: It taps into a number of elements and components from the React Native library, ensuring clean, consistent, and responsive design across all forms of devices.
 
-Data Storage and Management
+##Data Storage and Management
 - It uses @react-native-async-storage/async-storage for persistent data storage.
   In this way, this enables the app to locally store data in the device, hence safeguarding essential data such as cart items and user preference that surpass even after the closure of the app.
 
 - The logic for storage is encapsulated within helper functions for ease of management or extension in the future.
 
-Screenshots
+##Screenshots
 
 ![home1](https://github.com/user-attachments/assets/f2cd5522-b5ec-4e90-9c0d-0224ae3314a7)
 ![home2](https://github.com/user-attachments/assets/c3e5e5e4-5d3c-4da5-a008-272d6635cbbe)
