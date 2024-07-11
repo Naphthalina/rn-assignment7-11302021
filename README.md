@@ -19,6 +19,7 @@ Data Storage and Management
 - The logic for storage is encapsulated within helper functions for ease of management or extension in the future.
 
 Screenshots
+
 ![home1](https://github.com/user-attachments/assets/f2cd5522-b5ec-4e90-9c0d-0224ae3314a7)
 ![home2](https://github.com/user-attachments/assets/c3e5e5e4-5d3c-4da5-a008-272d6635cbbe)
 ![home3](https://github.com/user-attachments/assets/db4e0f1d-c186-4f49-be87-d53167b47e6d)
