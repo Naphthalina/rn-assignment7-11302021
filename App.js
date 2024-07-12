@@ -16,18 +16,21 @@ import BlogScreen from './screens/BlogScreen';
 import JewelryScreen from './screens/JewelryScreen';
 import ElectronicsScreen from './screens/ElectronicsScreen';
 import ClothesScreen from './screens/ClothesScreen';
+
+
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 
 const HomeStack = ({ navigation }) => (
   <Stack.Navigator>
-    <Stack.Screen style={styles.header}
+    <Stack.Screen 
       name="Home"
       component={HomeScreen}
+      style={{marginTop:50}}
       options={{
         headerLeft: () => (
           <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
-            <Ionicons name="menu" size={28} style={{ marginLeft: 10 }} />
+            <Ionicons name="menu" size={28} style={{ marginLeft: 10, marginTop:20 }} />
           </TouchableOpacity>
         ),
         headerTitle: () => (
@@ -77,20 +80,27 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     flex: 1,
+    marginTop:20,
+    
   },
   logo: {
     width: 150,
     height: 50,
     resizeMode: 'contain',
-    marginLeft:55,
+    marginLeft:70,
+    // marginTop:20
+    // alignItems:'center',
+    // justifyContent:'center',
+    // marginRight:30
   },
   header:{
-    paddingTop:50,
+    marginTop:50,
   },
   headerRight: {
     flexDirection: 'row',
     alignItems: 'center',
     marginRight: 10,
+    marginTop:20,
   },
   icon: {
     marginHorizontal: 10,
